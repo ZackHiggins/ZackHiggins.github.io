@@ -1,6 +1,7 @@
-* {
-    color: white;
-}
+@font-face {
+    font-family: 'deutschlander';
+    src: url('/deutschlander/Deutschlander.otf') format('opentype');
+  }
 
 body {
     background: rgb(0,0,0);
