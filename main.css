@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'deutschlander';
-    src: url('/deutschlander/Deutschlander.otf') format('opentype');
+    src: local('/deutschlander/Deutschlander.otf') format('opentype');
   }
 
 body {
@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    text-shadow: 8px 4px 0px rgba(255, 165, 0, 1);
+    text-shadow: 4px 4px 0px rgba(255, 165, 0, 1);
     font-size: 200px;
     font-family: deutschlander;
     color: white;
